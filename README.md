@@ -16,3 +16,12 @@ The following list of technologies were used in the production of this system:
 - SQL
 - Apache Web Server v2.4.59
 - Ubuntu 24.04 LTS
+
+## Features of this System
+- Editable records for every squadron, flight, and cadet
+- Dynamic inventory system that automatically updates when items are signed in or out of supply
+- An online interactive cadet and drill guide with examples
+- A list of every LDR offered in the TX-794 coupled along with pictures and summaries of what each of them do
+- Online sign up lists that can send reminders of upcoming community service events automatically
+- Leaderboards that show various statistics and rankings
+- A list of all corps staff positions and who holds them
