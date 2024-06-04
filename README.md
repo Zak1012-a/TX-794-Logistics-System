@@ -44,4 +44,6 @@ The following list of technologies were used in the production of this system:
 - [ ] Add the Online Cadet and Drill Guide
 - [ ] Clean Up and Optimize Code
 
+PROGRESS [==================================================] 0%
+
 Licensed Under the Apache 2.0 License
