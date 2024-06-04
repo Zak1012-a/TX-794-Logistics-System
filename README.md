@@ -25,3 +25,5 @@ The following list of technologies were used in the production of this system:
 - Online sign up lists that can send reminders of upcoming community service events automatically
 - Leaderboards that show various statistics and rankings
 - A list of all corps staff positions and who holds them
+
+Licensed Under the Apache 2.0 License
