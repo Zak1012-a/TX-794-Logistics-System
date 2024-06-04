@@ -1,3 +1,5 @@
+![GitHub milestone details](https://img.shields.io/github/milestones/:progress-percent/:Zak1012-a/:Zak1012-a/TX-794-Logistics-System/:0)
+
 # TX-794-Logistics-System
 
 ## Introduction
@@ -25,5 +27,21 @@ The following list of technologies were used in the production of this system:
 - Online sign up lists that can send reminders of upcoming community service events automatically
 - Leaderboards that show various statistics and rankings
 - A list of all corps staff positions and who holds them
+
+## TODO LIST
+- [ ] Create a Functional UI
+- [ ] Create a Login System with Encyption
+- [ ] Add Supply Database
+- [ ] Add Input/Output Functionality to the Supply Database
+- [ ] Create an Inventory System that Auto Updates with a Google Form
+- [ ] Add a Cadet Database
+- [ ] Add Input/Output Functionality to the Cadet Database
+- [ ] Create a System that Logs Community Service Hours and Reminds Cadets of Upcoming Events
+- [ ] Add a Leaderboard Page for Community Service Hours
+- [ ] Add a Leaderboard Page for PT Scores
+- [ ] Add the Chain of Command Page
+- [ ] Add the LDR Page
+- [ ] Add the Online Cadet and Drill Guide
+- [ ] Clean Up and Optimize Code
 
 Licensed Under the Apache 2.0 License
