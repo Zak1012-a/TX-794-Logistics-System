@@ -43,6 +43,7 @@ The following list of technologies were used in the production of this system:
 - [ ] Add the LDR Page
 - [ ] Add the Online Cadet and Drill Guide
 - [ ] Clean Up and Optimize Code
+- [ ] Create the Wiki
 
 PROGRESS [==================================================] 0%
 
