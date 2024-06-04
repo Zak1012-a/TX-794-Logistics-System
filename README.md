@@ -15,5 +15,7 @@ This system was built to do the following:
 - Online Cadet Guide
 - Inventory of everyting in supply
 - Profiles of every cadet that contain the following: (All awards earned, Current Rank, Current LDR's, A list of all issued items)
+- A tracker for community service hours
+- PT scores
   
 
