@@ -3,7 +3,10 @@
 # TX-794-Logistics-System
 
 ## Introduction
-This project was made to improve the quality of life and make paperwork less of a chore for the TX-794. It was made as a tool to improve workflow and overall efficency of an increasingly slow and painful system that we have in place now. It also has features that if utilized properly can be used to further improve the corps. Not only will it make logistics run smoother, it will also make keeping track of personel easier and quicker than the previous decentralized system.
+ This project was made to improve the quality of life and make paperwork less of a chore for the TX-794. It was made as a 
+ tool to improve workflow and overall efficency of an increasingly slow and painful system that we have in place now. It 
+ also has features that if utilized properly can be used to further improve the corps. Not only will it make logistics run 
+ smoother, it will also make keeping track of personel easier and quicker than the previous decentralized system.
 
 ## Technolgies Used
 The following list of technologies were used in the production of this system:
@@ -27,6 +30,10 @@ The following list of technologies were used in the production of this system:
 - Online sign up lists that can send reminders of upcoming community service events automatically
 - Leaderboards that show various statistics and rankings
 - A list of all corps staff positions and who holds them
+
+## Installation 
+
+ TBD
 
 ## TODO LIST
 - [ ] Create a Functional UI
