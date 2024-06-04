@@ -1,4 +1,4 @@
-![GitHub milestone details](https://img.shields.io/github/milestones/:progress-percent/:Zak1012-a/:Zak1012-a/TX-794-Logistics-System/:0)
+
 
 # TX-794-Logistics-System
 
