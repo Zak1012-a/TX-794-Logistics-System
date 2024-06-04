@@ -1,21 +1,18 @@
 # TX-794-Logistics-System
 
-## Introduction 
+## Introduction
+This project was made to improve the quality of life and make paperwork less of a chore for the TX-794. It was made as a tool to improve workflow and overall efficency of an increasingly slow and painful system that we have in place now. It also has features that if utilized properly can be used to further improve the corps. Not only will it make logistics run smoother, it will also make keeping track of personel easier and quicker than the previous decentralized system.
 
-This system was built to do the following:
+## Technolgies Used
+The following list of technologies were used in the production of this system:
 
-- Make corps operations smoother and easier
-- Centralize all relevant data about the corps and it's cadets in one place
-- Reduce time spent on repetative administrative tasks and paperwork
-- Obtain helpful data that can be used to improve the corps further
+### Front End Technolgies Utilized:
+- Html 
+- Css 
+- React.js v18.3.1
 
-
-## Planned Features
-
-- Online Cadet Guide
-- Inventory of everyting in supply
-- Profiles of every cadet that contain the following: (All awards earned, Current Rank, Current LDR's, A list of all issued items)
-- A tracker for community service hours
-- PT scores
-  
-
+### Back End Technolgies Utilized:
+- Node.js v20.14.0
+- SQL
+- Apache Web Server v2.4.59
+- Ubuntu 24.04 LTS
