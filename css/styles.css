@@ -1,16 +1,24 @@
-.body{
-  
-}
 
 .logo{
-  font-family: Arial
+  font-family: Arial;
+  backround-color: #00308F;
 }
 
 .nav-links {
-  
+  float: right;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px
 }
 
 .topnavbar {
-  
+  backround-color: #00308F;
+  overflow: hidden;
+}
+
+li.bar-active {
+  backround-color: #16d4fa;
 }
 
