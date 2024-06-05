@@ -12,13 +12,15 @@
 The following list of technologies were used in the production of this system:
 
 ### Front End Technolgies Utilized:
-- Html 
-- Css 
+- Html
+- Sass
+- Css
+- Xml
 - React.js v18.3.1
 
 ### Back End Technolgies Utilized:
 - Node.js v20.14.0
-- SQL
+- PostgreSQL
 - Apache Web Server v2.4.59
 - Ubuntu 24.04 LTS
 
