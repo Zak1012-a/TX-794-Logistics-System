@@ -1,10 +1,10 @@
 
-.logo{
+div.logo{
   font-family: Arial;
   backround-color: #00308F;
 }
 
-.nav-links {
+ul.nav-links {
   float: right;
   color: #FFFFFF;
   text-align: center;
@@ -13,7 +13,7 @@
   font-size: 17px
 }
 
-.topnavbar {
+div.topnavbar {
   backround-color: #00308F;
   overflow: hidden;
 }
