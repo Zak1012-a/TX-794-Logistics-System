@@ -1,4 +1,4 @@
-#Required Features
+# Required Features
 - Web based UI 
 - Google form integration
 - Realtime automatic stock updates
@@ -7,7 +7,7 @@
 - Time stamps on all opperations
 - Graphs to show level of stock
 
-#Required Technologies
+# Required Technologies
 - Appache Webserver
 - Ubuntu Server
 - PostgreSQL
