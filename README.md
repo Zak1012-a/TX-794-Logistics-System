@@ -49,4 +49,4 @@ The following list of technologies were used in the production of this system:
 
 PROGRESS [==================================================] 0%
 
-Licensed Under the Apache 2.0 License
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
