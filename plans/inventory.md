@@ -16,4 +16,3 @@
 - Css
 - React.js
 - Node.js
-- JSON
