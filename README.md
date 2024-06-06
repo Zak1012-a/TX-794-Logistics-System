@@ -1,5 +1,4 @@
-
-
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 # TX-794-Logistics-System
 
 ## Introduction
@@ -50,4 +49,4 @@ The following list of technologies were used in the production of this system:
 
 PROGRESS [==================================================] 0%
 
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
