@@ -5,14 +5,20 @@
   </head>
   <body>
     <div>
-      <form action="database" method="POST">
-        <div>
+      <form id="checkout-form" action="database" method="POST">
+        <div id="form-div">
             <label for="fname">First Name:</label><br>
             <input type="text" id="fname" name="fname"><br>
             <label for="lname">Last name:</label><br>
             <input type="text" id="lname" name="lname">
             <label for="id-number">ID Number:</label><br>
             <input type="number" id="id-number" name ="id-number">
+            <label for="item-select">Select Item From Dropdown:</label><br>
+            <button type="button" form="">OCP</button>
+            <button type="button" form="">UCP</button>
+            <button type="button" form="">BLU</button>
+            <button type="button" form="">PT</button>
+            <select id="item-select" name="item-select">  
             <input type="submit">
         </div>
       </form>
