@@ -1,4 +1,4 @@
-CREATE TABLE inventory (
+CREATE TABLE stock (
 -- Blue Uniform Items
 service_hat_stock                     int,  --(Number in Stock)
 service_hat_issued                    int,  --(Number Issued)
