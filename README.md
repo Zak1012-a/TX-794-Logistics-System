@@ -47,6 +47,6 @@ The following list of technologies were used in the production of this system:
 - [ ] Clean Up and Optimize Code
 - [ ] Create the Wiki
 
-PROGRESS [==================================================] 0%
+PROGRESS [0=================================================] 10%
 
 
