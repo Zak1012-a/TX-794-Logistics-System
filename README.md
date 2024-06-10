@@ -33,10 +33,10 @@ The following list of technologies were used in the production of this system:
 ## TODO LIST
 - [ ] Create a Functional UI
 - [ ] Create a Login System with Encyption
-- [ ] Add Supply Database
+- [x] Add Supply Database
 - [ ] Add Input/Output Functionality to the Supply Database
 - [ ] Create an Inventory System that Auto Updates with a Google Form
-- [ ] Add a Cadet Database
+- [x] Add a Cadet Database
 - [ ] Add Input/Output Functionality to the Cadet Database
 - [ ] Create a System that Logs Community Service Hours and Reminds Cadets of Upcoming Events
 - [ ] Add a Leaderboard Page for Community Service Hours
