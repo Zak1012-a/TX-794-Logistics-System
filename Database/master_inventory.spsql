@@ -1,0 +1,7 @@
+CREATE TABLE master_inventory (
+item_type       varchar(80), --(Type of Item)
+item_name       varchar(80), --(Name of Item)
+serial_number   int,         --(Serial Number of Item if None = 0)
+issued          BOOLEAN,     --(TRUE or FALSE)
+issued_to       varchar(80), --(Last, First)
+);
