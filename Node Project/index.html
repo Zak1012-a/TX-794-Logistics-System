@@ -3,40 +3,63 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script>
-var subjectObject = {
-  "Front-end": {
-    "HTML": ["Links", "Images", "Tables", "Lists"],
-    "CSS": ["Borders", "Margins", "Backgrounds", "Float"],
-    "JavaScript": ["Variables", "Operators", "Functions", "Conditions"]    
+var uniformObject = {
+  "BLUES": {
+    "HAT":     [],
+    "COAT":    [],
+    "SHIRT":   [],
+    "PANTS":   [],
+    "SHOES":   []
   },
-  "Back-end": {
-    "PHP": ["Variables", "Strings", "Arrays"],
-    "SQL": ["SELECT", "UPDATE", "DELETE"]
-  }
+  "OCP": {
+    "HAT":     [],
+    "COAT":    [],
+    "BLOUSE":  [],
+    "PANTS":   [],
+    "BOOTS":   []
+  },
+  "UCP": {
+    "HAT":     [],
+    "COAT":    [],
+    "BLOUSE":  [],
+    "PANTS":   [],
+    "BOOTS":   []
+  },
+  "PT": {
+    "SHIRT":   [],
+    "SHORTS":  []
+  },
+  "ACCESSORIES": {
+    "RANKS":   [],
+    "RIBBONS": [],
+    "BADGES":  [],
+    "TIE":     ["N/A"],
+    "TABS":    ["N/A"]
+  },
 }
 window.onload = function() {
-  var subjectSel = document.getElementById("subject");
-  var topicSel = document.getElementById("topic");
-  var chapterSel = document.getElementById("chapter");
-  for (var x in subjectObject) {
-    subjectSel.options[subjectSel.options.length] = new Option(x, x);
+  var uniformSel = document.getElementById("uniform");
+  var pieceSel = document.getElementById("piece");
+  var sizeSel = document.getElementById("size");
+  for (var x in uniformObject) {
+    uniformSel.options[uniformSel.options.length] = new Option(x, x);
   }
-  subjectSel.onchange = function() {
-    //empty Chapters- and Topics- dropdowns
-    chapterSel.length = 1;
-    topicSel.length = 1;
+  uniformSel.onchange = function() {
+    //empty sizes- and pieces- dropdowns
+    sizeSel.length = 1;
+    pieceSel.length = 1;
     //display correct values
-    for (var y in subjectObject[this.value]) {
-      topicSel.options[topicSel.options.length] = new Option(y, y);
+    for (var y in uniformObject[this.value]) {
+      pieceSel.options[pieceSel.options.length] = new Option(y, y);
     }
   }
-  topicSel.onchange = function() {
-    //empty Chapters dropdown
-    chapterSel.length = 1;
+  pieceSel.onchange = function() {
+    //empty sizes dropdown
+    sizeSel.length = 1;
     //display correct values
-    var z = subjectObject[subjectSel.value][this.value];
+    var z = uniformObject[uniformSel.value][this.value];
     for (var i = 0; i < z.length; i++) {
-      chapterSel.options[chapterSel.options.length] = new Option(z[i], z[i]);
+      sizeSel.options[sizeSel.options.length] = new Option(z[i], z[i]);
     }
   }
 }
@@ -47,43 +70,19 @@ window.onload = function() {
 <h1>Cascading Dropdown Example</h1>
 
 <form name="form1" id="form1" action="/action_page.php">
-var subjectObject = {
-  "Front-end": {
-    "HTML": ["Links", "Images", "Tables", "Lists"],
-    "CSS": ["Borders", "Margins", "Backgrounds", "Float"],
-    "JavaScript": ["Variables", "Operators", "Functions", "Conditions"]    
-  },
-  "Back-end": {
-    "PHP": ["Variables", "Strings", "Arrays"],
-    "SQL": ["SELECT", "UPDATE", "DELETE"]
-  }
-}
-window.onload = function() {
-  var subjectSel = document.getElementById("subject");
-  var topicSel = document.getElementById("topic");
-  var chapterSel = document.getElementById("chapter");
-  for (var x in subjectObject) {
-    subjectSel.options[subjectSel.options.length] = new Option(x, x);
-  }
-  subjectSel.onchange = function() {
-    //empty Chapters- and Topics- dropdowns
-    chapterSel.length = 1;
-    topicSel.length = 1;
-    //display correct values
-    for (var y in subjectObject[this.value]) {
-      topicSel.options[topicSel.options.length] = new Option(y, y);
-    }
-  }
-  topicSel.onchange = function() {
-    //empty Chapters dropdown
-    chapterSel.length = 1;
-    //display correct values
-    var z = subjectObject[subjectSel.value][this.value];
-    for (var i = 0; i < z.length; i++) {
-      chapterSel.options[chapterSel.options.length] = new Option(z[i], z[i]);
-    }
-  }
-}
+uniforms: <select name="uniform" id="uniform">
+    <option value="" selected="selected">Select Type</option>
+  </select>
+  <br><br>
+pieces: <select name="piece" id="piece">
+    <option value="" selected="selected">Please select type first</option>
+  </select>
+  <br><br>
+sizes: <select name="size" id="size">
+    <option value="" selected="selected">Please select type first</option>
+  </select>
+  <br><br>
+  <input type="submit" value="Submit">  
 </form>
 
 </body>
