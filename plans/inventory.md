@@ -1,6 +1,7 @@
 # Required Features
 - Web based UI 
 - Google form integration
+- Google Sheets integration
 - Realtime automatic stock updates
 - Low stock warnings
 - List of issued gear and who it was issued to
