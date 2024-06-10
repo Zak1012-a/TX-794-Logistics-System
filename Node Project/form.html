@@ -1,1 +1,26 @@
-
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="dropdown.js"></script>
+    </head>   
+    <body>
+        <h1>Cascading Dropdown Example</h1>
+        <form name="form1" id="form1" action="/action_page.php">
+            uniforms: <select name="uniform" id="uniform">
+                <option value="" selected="selected">Select Type</option>
+            </select>
+            <br><br>
+            pieces: <select name="piece" id="piece">
+                <option value="" selected="selected">Please select type first</option>
+            </select>
+            <br><br>
+            sizes: <select name="size" id="size">
+                <option value="" selected="selected">Please select type first</option>
+            </select>
+            <br><br>
+            <label for="serial-number">Serial Number</label>
+            <input type="number" id="serial-number">
+            <input type="submit" value="Submit">  
+        </form>
+    </body>
+</html>
