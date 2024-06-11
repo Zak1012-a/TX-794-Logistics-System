@@ -1,7 +1,8 @@
 CREATE TABLE  cadet_data (
 flight                    varchar(255), --(Alpha-Zulu)
 cadet_role                varchar(255), --(Corps Staff/Flight Staff)
-cadet_name                varchar(255), --(Last, First)
+cadet_name_first          varchar(255), --(First Name)
+cadet_name_last           varchar(255), --(Last Name)
 cadet_rank                varchar(255), --(Standard Abrevations)
 cadet_id                  int,         --(School ID Number)
 cadet_year                int,         --(1-4)
