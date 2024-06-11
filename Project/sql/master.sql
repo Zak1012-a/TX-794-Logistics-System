@@ -1,14 +1,14 @@
 CREATE TABLE  cadet_data (
-flight                    varchar(80), --(Alpha-Zulu)
-cadet_role                varchar(80), --(Corps Staff/Flight Staff)
-cadet_name                varchar(80), --(Last, First)
-cadet_rank                varchar(80), --(Standard Abrevations)
+flight                    varchar(255), --(Alpha-Zulu)
+cadet_role                varchar(255), --(Corps Staff/Flight Staff)
+cadet_name                varchar(255), --(Last, First)
+cadet_rank                varchar(255), --(Standard Abrevations)
 cadet_id                  int,         --(School ID Number)
 cadet_year                int,         --(1-4)
 passing                   BOOLEAN,     --(TRUE or FALSE) 
-hq_paperwork              varchar(80), --(Full, Some, None)
-awards                    varchar(80), --(Abrevations for All Ribbons)
-cords                     varchar(80), --(Abrevations for All Shoulder Cords)
+hq_paperwork              varchar(255), --(Full, Some, None)
+awards                    varchar(255), --(Abrevations for All Ribbons)
+cords                     varchar(255), --(Abrevations for All Shoulder Cords)
 community_service_hours   int,         --(Number in Hours)
 drill_team                BOOLEAN,     --(TRUE or FALSE)
 saber_team                BOOLEAN,     --(TRUE or FALSE)
@@ -20,24 +20,24 @@ robotics_team             BOOLEAN,     --(TRUE or FALSE)
 );
 
 CREATE TABLE issued_gear (
-item_issued       varchar(80), --(Item Issued)
-item_type         varchar(80), --(Name of Item Issued)
+item_issued       varchar(255), --(Item Issued)
+item_type         varchar(255), --(Name of Item Issued)
 item_sn           int,         --(Serial Number of Item)
-cadet_name        varchar(80), --(Last, First)
+cadet_name        varchar(255), --(Last, First)
 date_issued       DATE,        --(YYYY-MM-DD)
 returned          BOOLEAN,     --(TRUE or FALSE) 
 date_returned     DATE,        --(YYYY-MM-DD [0000-00-00 if still being used])
 );
 
 CREATE TABLE master_inventory (
-item_type       varchar(80), --(Type of Item OCP, UCP, Service)
+item_type       varchar(255), --(Type of Item OCP, UCP, Service)
 item_size       int,         --(Size Number on Clothes if N/A = 0)
-item_cut        varchar(80), --(Long, Short, Etc if N/A = 0)
-item_name       varchar(80), --(Name of Item)
+item_cut        varchar(255), --(Long, Short, Etc if N/A = 0)
+item_name       varchar(255), --(Name of Item)
 serial_number   int,         --(Serial Number of Item if None = 0)
 issued          BOOLEAN,     --(TRUE or FALSE)
 date_of_issue   DATE,        --(YYYY-MM-DD if not currently issued put in last date of issue)
-issued_to_last  varchar(80), --(Last, First)
+issued_to_last  varchar(255), --(Last, First)
 date_of_return  DATE,        --(YYYY-MM-DD)
 );
 
