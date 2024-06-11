@@ -34,9 +34,22 @@
             $drill_team = $_REQUEST['drill_team'];
             $saber_team = $_REQUEST['saber_team'];
             $color_guard = $_REQUEST['color_guard'];
-            
-            
-            
+            $raider_team = $_REQUEST['raider_team'];
+            $jlab = $_REQUEST['jlab'];
+            $drones_team = $_REQUEST['drones_team'];
+            $robotics_team = $_REQUEST['robotics_team'];
+
+            // Preforming insert query execution
+            // Table Name cadet_data
+            $sql = "INSERT INTO cadet_data VALUES ('$flight','$cadet_role','$cadet_name_first','$cadet_name_last','$cadet_rank','$cadet_id','$cadet_year','$passing','$hq_paperwork','$awards','$cords','$community_service_hours','$drill_team','$saber_team','$color_guard','$raider_team','$jlab','$drones_team','$robotics_team')";
+
+            if(mysqli_query($conn, $sql)){
+              echo "<h3>Data Stored in Database</h3>";
+
+              
+            }
+            // Close Connection
+            mysqli_close($conn); 
       ?>
     </center>
   </body>
