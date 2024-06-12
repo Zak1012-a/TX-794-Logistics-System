@@ -40,8 +40,8 @@ The following list of technologies were used in the production of this system:
 - [ ] Create a System that Logs Community Service Hours and Reminds Cadets of Upcoming Events
 - [ ] Add a Leaderboard Page for Community Service Hours
 - [ ] Add a Leaderboard Page for PT Scores
-- [ ] Add the Chain of Command Page
-- [ ] Add the LDR Page
+- [x] Add the Chain of Command Page
+- [x] Add the LDR Page
 - [ ] Add the Online Cadet and Drill Guide
 - [ ] Clean Up and Optimize Code
 - [ ] Create the Wiki
