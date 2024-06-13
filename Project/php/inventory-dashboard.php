@@ -3,7 +3,7 @@
   <head>
     <!--Css Loading -->
     <link href="/Project/css/style.css" rel="stylesheet">
-    <!--Importing Chart.js and charts on the page-->
+    <!--Importing Chart.js-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
   </head>
   <body>
