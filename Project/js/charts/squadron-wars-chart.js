@@ -1,4 +1,4 @@
-new Chart(document.getElementById("line-chart"), {
+new Chart(document.getElementById("squadron-wars"), {
   type: 'line',
   data: {
     labels: [1500,1600,1700,1750,1800,1850,1900,1950,1999,2050],
