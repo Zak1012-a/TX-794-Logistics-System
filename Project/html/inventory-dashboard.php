@@ -21,6 +21,9 @@
       <a href="leaderboard.html">Leaderboard</a>
       <a class="active" href="inventory-dashboard.html">Dashboard</a>
     </div>
+    <?php
+
+    ?>
     <canvas id="stock-chart" width="800" height="450"></canvas>
     <canvas id="cadet-school-distribution" width="800" height="450"></canvas>
     <canvas id="collective-community-service" width="800" height="450"></canvas>
