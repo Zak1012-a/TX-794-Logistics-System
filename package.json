@@ -1,0 +1,19 @@
+
+{
+  "name": "tx794-logistics-system",
+  "description": "",
+  "version": "1.0.0",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zak1012-a/TX-794-Logistics-System"
+  },
+  "keywords": [],
+  "author": "Zakary Kossbiel",
+  "license": "Apache 2",
+  "bugs": {
+    "url": "https://github.com/monatheoctocat/my_package/issues"
+  },
+  "homepage": "https://github.com/Zak1012-a/TX-794-Logistics-System/README.md"
+}
