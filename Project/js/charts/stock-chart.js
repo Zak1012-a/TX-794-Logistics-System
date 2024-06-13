@@ -5,7 +5,7 @@ new Chart(document.getElementById("stock-chart"), {
       labels: ["PLACEHOLDER", "PLACEHOLDER", "PLACEHOLDER", "PLACEHOLDER", "PLACEHOLDER"],
       datasets: [
         {
-          label: "Population (millions)",
+          label: "PLACEHOLDER",
           backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
           data: [2478,5267,734,784,433]
         }
