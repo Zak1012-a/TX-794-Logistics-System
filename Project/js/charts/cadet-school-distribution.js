@@ -1,4 +1,4 @@
-new Chart(document.getElementById("pie-chart"), {
+new Chart(document.getElementById("cadet-school-distribution"), {
     type: 'pie',
     data: {
       labels: ["Africa", "Asia", "Europe"],
