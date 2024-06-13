@@ -1,23 +1,34 @@
- <?php
-            // servername     =>     localhost
-            // username       =>     root
-            // password       =>     empty
-            // database name  =>     master
-            $conn = mysqli_connect("localhost","root","","staff");
+<?php
+// Include your database connection code here
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+// Database connection parameters
+$dbHost = "localhost";
+$dbUsername = "YourUsername";
+$dbPassword = "YourPass";
+$dbName = "YourDB";
+// Database configuration
+// Create connection
+$conn = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
 
-            // Check Connection
-            if($conn === false){
-              die("ERROR: Couldn't Connect. "
-                 . mysqli_connect_error());
-            }
-            // Taking Data From The Database
-            $sql = "SELECT * FROM passing_data";
-            $rows = array();
-            while($r = mysqli_fetch_assoc($sql)) {
-                $rows[] = $r;
-            }
-            // JSON Encoding
-            print json_encode($rows);
-            
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+
+$sql = "SELECT * FROM cadet_data"; 
+$result = $conn->query($sql);
+
+$data = array();
+foreach ($result as $row) {
+    //echo "Hello!";
+    $data[] = $row;
+}
+
+$conn->close();
+
+// Print data in JSON format
+echo json_encode($data);
+?>
         
 ?>
