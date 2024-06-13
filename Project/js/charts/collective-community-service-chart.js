@@ -1,4 +1,3 @@
-<canvas id="pie-chart" width="800" height="450"></canvas>
 new Chart(document.getElementById("pie-chart"), {
     type: 'pie',
     data: {
