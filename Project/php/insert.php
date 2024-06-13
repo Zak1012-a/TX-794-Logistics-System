@@ -11,7 +11,7 @@
             // username       =>     root
             // password       =>     empty
             // database name  =>     master
-            $conn = mysqli_connect("localhost","root","","staff")
+            $conn = mysqli_connect("localhost","root","","master")
 
             // Check Connection
             if($conn === false){
