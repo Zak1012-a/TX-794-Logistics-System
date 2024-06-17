@@ -38,7 +38,7 @@ item_name       varchar(255), --(Name of Item)
 serial_number   int,         --(Serial Number of Item if None = 0)
 issued          BOOLEAN,     --(TRUE or FALSE)
 date_of_issue   DATE,        --(YYYY-MM-DD if not currently issued put in last date of issue)
-issued_to_last  varchar(255), --(Last, First)
+issued_to       varchar(255), --(Last, First)
 date_of_return  DATE,        --(YYYY-MM-DD)
 );
 
